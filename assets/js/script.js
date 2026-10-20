@@ -33,7 +33,7 @@ options.addEventListener("click", async (e) => {
   e.target.classList.toggle("active");
 
   try {
-    const response = await fetch("../../assets/data.json");
+    const response = await fetch("./assets/data.json");
 
     if (!response.ok) console.log("Error Occured!!: ");
 
