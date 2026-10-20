@@ -1,6 +1,4 @@
 const options = document.querySelector(".dashboard-options");
-const currentTimes = document.querySelectorAll(".current-time");
-const lastTimes = document.querySelectorAll("card-last-time");
 const categories = new Map(
   [...document.querySelectorAll(".card")].map((card) => [
     card.dataset.category,
