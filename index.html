@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script type="module" src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <main class="dashboard">
+      <section class="profile-card">
+        <div class="profile">
+          <img
+            src="assets/images/image-jeremy.png"
+            class="profile-image"
+            alt="profile-image"
+          />
+          <div class="profile-details">
+            <p>Report for</p>
+            <h1 class="profile-name">Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="dashboard-options">
+          <p class="option">Daily</p>
+          <p class="option active">Weekly</p>
+          <p class="option">Monthly</p>
+        </div>
+      </section>
+      <div class="card work-card" data-category="work">
+        <section class="card-header-style">
+          <img src="assets/images/icon-work.svg" alt="work-icon" />
+        </section>
+        <div class="card-content">
+          <header class="card-content-header">
+            <p class="card-category">Work</p>
+            <img src="assets/images/icon-ellipsis.svg" alt="ellipsis" />
+          </header>
+          <div class="card-body">
+            <span class="current-time">32hrs</span>
+            <p class="card-last-time">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="card play-card" data-category="play">
+        <section class="card-header-style">
+          <img src="assets/images/icon-play.svg" alt="play-icon" />
+        </section>
+        <div class="card-content">
+          <header class="card-content-header">
+            <p class="card-category">Play</p>
+            <img src="assets/images/icon-ellipsis.svg" alt="ellipsis" />
+          </header>
+          <div class="card-body">
+            <span class="current-time">10hrs</span>
+            <p class="card-last-time">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="card study-card" data-category="study">
+        <section class="card-header-style">
+          <img src="assets/images/icon-study.svg" alt="study-icon" />
+        </section>
+        <div class="card-content">
+          <header class="card-content-header">
+            <p class="card-category">Study</p>
+            <img src="assets/images/icon-ellipsis.svg" alt="ellipsis" />
+          </header>
+          <div class="card-body">
+            <span class="current-time">4hrs</span>
+            <p class="card-last-time">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="card exercise-card" data-category="exercise">
+        <section class="card-header-style">
+          <img src="assets/images/icon-exercise.svg" alt="exercise-icon" />
+        </section>
+        <div class="card-content">
+          <header class="card-content-header">
+            <p class="card-category">Exercise</p>
+            <img src="assets/images/icon-ellipsis.svg" alt="ellipsis" />
+          </header>
+          <div class="card-body">
+            <span class="current-time">4hrs</span>
+            <p class="card-last-time">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="card social-card" data-category="social">
+        <section class="card-header-style">
+          <img src="assets/images/icon-social.svg" alt="social-icon" />
+        </section>
+        <div class="card-content">
+          <header class="card-content-header">
+            <p class="card-category">Social</p>
+            <img src="assets/images/icon-ellipsis.svg" alt="ellipsis" />
+          </header>
+          <div class="card-body">
+            <span class="current-time">5hrs</span>
+            <p class="card-last-time">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="card self-care-card" data-category="self-care">
+        <section class="card-header-style">
+          <img src="assets/images/icon-self-care.svg" alt="self-care-icon" />
+        </section>
+        <div class="card-content">
+          <header class="card-content-header">
+            <p class="card-category">Self Care</p>
+            <img src="assets/images/icon-ellipsis.svg" alt="ellipsis" />
+          </header>
+          <div class="card-body">
+            <span class="current-time">2hrs</span>
+            <p class="card-last-time">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
